@@ -1,1 +1,32 @@
-// Navigation Styles here
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px 0;
+    width: 100%;
+
+    h1 {
+        align-self: flex-start;
+    }
+
+    li {
+        list-style: none;
+        
+        a {
+            padding-left: 20px;
+            text-decoration: none;
+            color: @shark;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+hr.divider {
+    position: absolute;
+    border-bottom: 2px dashed silver;
+    border-top: none;
+    background: #fff;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
