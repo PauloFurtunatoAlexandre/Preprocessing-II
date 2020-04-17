@@ -265,11 +265,19 @@ hr.divider {
 .home .content-pick .destination .btn {
   background-color: #17A2B8;
   color: #FFFFFF;
-  padding: 12px 40px;
+  padding: 12px;
   text-align: center;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 20px auto;
+  display: block;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: #FFEBCD;
+  color: #212529;
+  transition: all 0.5s ease-in-out;
 }
